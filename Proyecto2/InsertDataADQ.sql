@@ -16,11 +16,37 @@ INSERT INTO Marcas (
 )
 VALUES
 ("92", "MITSA", "2021", "Slow Fashion", "Ciudad de México",
- "Online", "")
+ "Online", "4352", "16000", "293", "00"),
+("93", "FIFTY FAVE", "2022", "Streatwear", "Guadalajara, Jalisco",
+ "Ambos", "1000", "15500", "7546", "00"),
+("94", "Tiempos", "2021", "Slow Fashion", "Culiacan, Sinaloa",
+ "Ambos", "6495", "25900", "89", "00"),
+("95", "LIBERAL YOUTH MINISTRY", "2016", "Slow Fashion", "Guadalajara, Jalisco",
+ "Ambos", "2397", "44700", "11", "00"),
+("96", "DIE FAST", "2021", "Slow Fashion", "Ciudad de México",
+ "Online", "2500", "5702", "26900", "00"),
+("97", "ABL ESTUDIO", "2020", "Slow Fashion", "Monterrey, Nuevo León",
+ "Ambos", "5249", "30700", "52000", "00"),
+("98", "aim", "2021", "Jewerly", "Ciudad de México",
+ "Online", "1900", "12500", "387", "00"),
+("99", "MARBLE STONES", "2021", "Streatwear", "Ciudad de México",
+ "Ambos", "1270", "6906", "64", "00"),
+("100", "DISTANTE", "2023", "Streatwear", "Ciudad de México",
+ "Ambos", "800", "1879", "2527", "00"),
+("101", "cuāchic", "2021", "Slow Fashion", "Nezahualcoyotl, Estado de México",
+ "Ambos", "800", "889", "25", "00"),
+("102", "Gazzle Store", "2022", "Slow Fashion, Custom", "Ciudad de México",
+ "Ambos", "1800", "20700", "250", "00"),
+("103", "GOVA", "2021", "Slow Fashion", "Ciudad de México",
+ "Ambos", "1900", "954", "6308", "00"),
+("104", "Bopshit", "2023", "Bootleg Merch, Merch", "León, Guanajuato",
+ "Ambos", "400", "6458", "19", "00"),
+("105", "COBRA STUDIO Supply Co", "2022", "Streatwear, Bootleg Merch, Merch",
+ "Ciudad de México", "Ambos", "640", "19900", "00", "00");
 
 
-
-
+SELECT * FROM Marcas WHERE nombre = "gova";
+SELECT * FROM Marcas;
 /*
 ("84", "PAY'S", "2017", "Slow Fashion", "Ciudad de México",
  "Ambos", "1381", "77300", "517", "00"),
