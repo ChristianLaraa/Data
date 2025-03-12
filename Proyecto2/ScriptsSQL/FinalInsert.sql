@@ -42,12 +42,9 @@ VALUES
 ("104", "Bopshit", "2023", "Bootleg Merch, Merch", "León, Guanajuato",
  "Ambos", "400", "6458", "19", "00"),
 ("105", "COBRA STUDIO Supply Co", "2022", "Streatwear, Bootleg Merch, Merch",
- "Ciudad de México", "Ambos", "640", "19900", "00", "00");
+ "Ciudad de México", "Ambos", "640", "19900",
+ "00", "00"),
 
-
-SELECT * FROM Marcas WHERE nombre = "gova";
-SELECT * FROM Marcas;
-/*
 ("84", "PAY'S", "2017", "Slow Fashion", "Ciudad de México",
  "Ambos", "1381", "77300", "517", "00"),
 ("85", "Val De Grace", "2016", "Casueal, Jackets", "Ciudad de México",
@@ -63,11 +60,8 @@ SELECT * FROM Marcas;
 ("90", "Coloso de Oro", "2022", "Jewerly", "Ciudad de México, Centro",
  "Ambos", "0", "8841", "1627", "00"),
 ("91", "TORONERO", "2018", "Contemporary Mexican Folk, Slow Fashion", "Ciudad de México",
- "Online", "2542", "19600", "498", "00");
-+/
+ "Online", "2542", "19600", "498", "00"),
 
-
-/*
 ("78", "Zennetti", "2022", "Streatwear", "Tijuana, Baja California",
 "Online", "1195", "15000", "9340", "00"),
 ("79", "PALERMO.LAB", "2023", "Streatwear", "Ciudad de México",
@@ -79,13 +73,8 @@ SELECT * FROM Marcas;
 ("82", "SEEDI BRAND", "2022", "Streatwear", "Ciudad de México",
  "Online", "240", "1732", "266", "00"),
 ("83", "LyShi", "2021", "Apparel store, Streatwear", "Ciudad de México",
- "Online", "800", "19800", "80200", "00");
-*/
+ "Online", "800", "19800", "80200", "00"),
 
-
-SELECT * FROM Marcas WHERE nombre = "Uns treet";
-SELECT * FROM Marcas;
-/*
 ("65", "Ignotus Society", "2023", "Streatwear", "Queretaro",
  "Online", "803", "3142", "1130", "00"),
 ("66", "SKILLZ", "2023", "Streatwear, Minimalista", "Ciudad de México",
@@ -111,13 +100,8 @@ SELECT * FROM Marcas;
 ("76", "IMPERIAL BRAND", "2024", "Streatwear", "Culiacan, Sinaloa",
  "Online", "840", "1113", "606", "00"),
 ("77", "TRA$H", "2023", "Streatwear", "Ciudad de México",
- "Online", "783", "11500", "2058", "00");
-*/
+ "Online", "783", "11500", "2058", "00"),
 
-SELECT * FROM Marcas WHERE nombre = "Lowdef";
-
-
-/*
 ("61", "OVERRATED", "2022", "Streatwear", "Guadalajara, Jalisco",
 "Ambos", "1000", "35100", "158", "00"),
 ("62", "FATE", "2022", "Streatwear", "Ciudad de México",
@@ -125,23 +109,20 @@ SELECT * FROM Marcas WHERE nombre = "Lowdef";
 ("63", "PRAYERS", "2020", "Streatwear", "Guadalajara, Jalisco",
  "Ambos", "610", "29700", "1017", "00"),
 ("64", "BAEZ", "2020", "Slow Fashion", "Tijuana, Baja California",
-"Online", "2350", "83600", "11000", "00");
-*/
-SELECT * FROM Marcas;
+"Online", "2350", "83600", "11000", "00"),
 
-SELECT * FROM Marcas where nombre = "sacrifice";
-
-/*
 ("59", "Eighty Eight", "2019", "Streatwear", "Ciudad de México",
 "Ambos", "770", "3280", "4834", "00"),
 ("60", "SWAF", "2023", "Streatwear", "Guadalajara, Jalisco",
- "Online", "630", "2334", "14900", "00");
+ "Online", "630", "2334", "14900", "00"),
+
 ("56", "Hermanos Koumori", "2018", "Runnig", "Ciudad de México",
  "Ambos", "1850", "46300", "491", "00"),
 ("57", "Mauro Garfias", "2008", "Custom Merch", "Ciudad de México",
  "Ambos", "0", "63100", "5062", "0"),
 ("58", "Madkidz", "2020", "Streatwear", "Monterrey Nuevo León",
-"Ambos", "820", "28700", "4555", "00");
+"Ambos", "820", "28700", "4555", "00"),
+
 ("48", "Andrea Robles", "2022", "Ready to wear, Streatwear", "Ciudad de México",
 "Online", "1910", "4675", "8383", "00"),
 ("49", "ESKINA-NA", "2019", "Slow Fashion, Streatwear", "Ciudad de México",
@@ -157,7 +138,9 @@ SELECT * FROM Marcas where nombre = "sacrifice";
 ("54", "icebladeeeee", "2022", "Slow Fashion", "Nezahualcoyotl, Estado de México",
  "Ambos", "3500", "6358", "00", "00"),
 ("55", "LOWDEF", "2018", "Streatweart", "Monterrey Nuevo León",
- "Ambos", "590", "3247", "4587", "00");
+ "Ambos", "590", "3247", "4587", "00"),
+
+
 ("43", "Tarantella", "2020", "Slow Fashion, Girls", "Monterrey, Nuevo León",
 "Online", "1480", "4717", "170", "00"),
 ("44", "relicoftheeast", "2021", "Jewelry", "Ciudad de México",
@@ -167,9 +150,9 @@ SELECT * FROM Marcas where nombre = "sacrifice";
 ("46", "Bodega Slasher", "2019", "Streatwear, Slow Fashion", "Ciudad de México",
 "Online", "1322", "4857", "576", "00"),
 ("47", "Pangrama", "2023", "Slow Fashion", "Ciudad de México",
- "Online", "1990", "582", "00", "00");
-*/
-/*("34", "Twenty Two", "2023", "Streatwear, Slow Fashion", "Ciudad de México",
+ "Online", "1990", "582", "00", "00"),
+
+("34", "Twenty Two", "2023", "Streatwear, Slow Fashion", "Ciudad de México",
 "Online", "900", "237", "00", "00"),
 ("35", "SELF INDULGENCE", "2024", "Slow Fashion", "Ciudad de México",
 "Ambos", "1460", "1714", "00", "00"),
@@ -186,7 +169,7 @@ SELECT * FROM Marcas where nombre = "sacrifice";
 ("41", "GRIEVE.MX", "2019", "High Fashion, Slow Fashion", "Ciudad de México",
 "Ambos", "4516", "7316", "00", "00"),
 ("42", "Tierramala", "2019", "Streatwear, Casual", "Ciudad de México",
- "Online", "920", "8955", "398", "00");*/
+ "Online", "920", "8955", "398", "00");
 
 
 SELECT * FROM Marcas;
@@ -196,9 +179,16 @@ SELECT * FROM Marcas where nombre = "palida studios";
 ALTER TABLE Marcas CHANGE COLUMN año_creacion ano_creacion YEAR;
 
 
+SELECT * FROM Marcas WHERE nombre = "Lowdef";
 
+SELECT * FROM Marcas WHERE nombre = "Uns treet";
+SELECT * FROM Marcas;
 
 -- update categoria de marca 5
 UPDATE Marcas SET categoria = "Streatwear" WHERE id_marca = 5;
 
 UPDATE Marcas SET ciudad_base = "Nezahualcoyotl, Estado de México" WHERE id_marca = 1;
+
+SELECT * FROM Marcas;
+
+SELECT * FROM Marcas where nombre = "sacrifice";
